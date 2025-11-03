@@ -1,0 +1,54 @@
+body {
+  background: radial-gradient(circle at top, #001030, #000);
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 0 12px rgba(255, 230, 120, 0.6));
+}
+
+button {
+  border: none;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.3s;
+}
+
+#connectButton {
+  background: linear-gradient(90deg, #2B6FF6, #00E6F6);
+  box-shadow: 0 0 20px rgba(0, 230, 246, 0.4);
+}
+
+#buyButton {
+  background: linear-gradient(90deg, #F6A623, #FFD700);
+  box-shadow: 0 0 20px rgba(255, 200, 50, 0.5);
+}
+
+#connectButton:hover, #buyButton:hover {
+  transform: scale(1.05);
+}
+
+#walletAddress {
+  margin-top: 15px;
+  font-size: 16px;
+  opacity: 0.85;
+}
