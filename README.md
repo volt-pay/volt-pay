@@ -169,7 +169,7 @@ These references will be added to this repository as they are completed.
 - ✉️ **Email:** info@voltpay.org
 - 💻 **GitHub:** https://github.com/volt-pay
 - 𝕏 **X / Twitter:** https://x.com/VoltPayInfo
-- ✈️ **Telegram:** https://t.me/VoltPay
+- ✈️ **Telegram:** https://t.me/VoltPayorg
 - 💬 **Discord:** https://discord.com/invite/NYcPsXY4jG
 
 ---
