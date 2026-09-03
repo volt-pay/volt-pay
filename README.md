@@ -2,11 +2,11 @@
   <img src="VoltPay-Logo.png" alt="VoltPay VLT Logo" width="190">
 </p>
 
-# VoltPay (VLT) - Official Smart Contract Repository ⚡
+# VoltPay (VLT) — Official Smart Contract Repository ⚡
 
-VoltPay is a next-generation Web3 ecosystem designed to simplify digital payments by combining blockchain infrastructure with artificial intelligence.
+VoltPay is a Web3 payments ecosystem being developed to make digital-asset payments simpler by combining blockchain infrastructure, a non-custodial wallet, and AI-assisted user tools.
 
-This repository contains the **official verified VoltPay V2 Mainnet smart contract**, final project documentation, and security references for the VoltPay ecosystem.
+This repository contains the **official verified VoltPay V2 Mainnet smart contract**, current official project documentation, and security references for the VoltPay ecosystem.
 
 ---
 
@@ -21,14 +21,15 @@ This repository contains the **official verified VoltPay V2 Mainnet smart contra
 - **Optimizer:** Enabled — `200 runs`
 - **EVM Version:** `paris`
 - **Verification:** BscScan — **Exact Match**
-- **Trading Status:** Disabled until official launch
+- **Trading Status:** Disabled until the official launch
+- **Liquidity Status:** Not yet added
 
 🔎 **BscScan:**  
 https://bscscan.com/address/0xE90714e6e4becEc65F33D3099F95B42B6e3168aE#code
 
 ---
 
-## 🔐 Final Contract Source
+## 🔐 Frozen Contract Source
 
 Official Mainnet source:
 
@@ -38,30 +39,41 @@ Official Mainnet source:
 
 `9d708e7e874bdf72533d1f59d976049dfeeff9f3555aeccfd4c2bfdc94cbcdae`
 
-The Solidity source is frozen and corresponds to the contract deployed and verified on BNB Smart Chain Mainnet.
+The Solidity source is frozen and corresponds to the contract deployed and verified on BNB Smart Chain Mainnet. Token allocation updates described below do not change the deployed smart contract or the fixed total supply.
 
 ---
 
-## 📊 Tokenomics & Security
+## 📊 Tokenomics — Version 2.0
 
 VoltPay has a fixed, non-inflationary total supply of:
 
 **200,000,000 VLT**
 
-### Final Distribution
+| Allocation | VLT | Share | Lock / Vesting Status |
+| --- | ---: | ---: | --- |
+| Strategic Reserve | 100,000,000 | 50% | 12-month lock planned; on-chain proof pending |
+| Founder Allocation | 20,000,000 | 10% | 10,000,000 planned for a 12-month lock; 10,000,000 unlocked |
+| Presale | 30,000,000 | 15% | Reserved for the planned public presale |
+| Liquidity | 20,000,000 | 10% | Reserved for initial and future liquidity |
+| Team | 10,000,000 | 5% | 3-month cliff followed by 12-month linear vesting; deployment pending |
+| Marketing & Community | 8,000,000 | 4% | Growth, community, campaigns, and ecosystem adoption |
+| Exchange Listings & Market Expansion | 7,000,000 | 3.5% | Exchange integrations, listings, and market expansion |
+| Development & Operations | 5,000,000 | 2.5% | Product development, infrastructure, security, and operations |
+| **Total** | **200,000,000** | **100%** | **Fixed supply** |
 
-- **50%** — Strategic Reserve — Locked — `100,000,000 VLT`
-- **12.5%** — Liquidity Reserve — `25,000,000 VLT`
-- **10%** — Founder Allocation — `20,000,000 VLT`
-- **7.5%** — Presale — `15,000,000 VLT`
-- **7.5%** — Ecosystem & Partnerships — `15,000,000 VLT`
-- **5%** — Team — Vesting — `10,000,000 VLT`
-- **5%** — Marketing & Community — `10,000,000 VLT`
-- **2.5%** — Development & Operations — `5,000,000 VLT`
+Lock and vesting descriptions are commitments planned for implementation. They must not be interpreted as completed until the corresponding on-chain transactions and verifiable addresses are published.
 
-**Total: 200,000,000 VLT — 100%**
+### Planned Presale Parameters
 
-Team allocation is planned with a **3-month cliff** followed by **12-month linear vesting**.
+- **Soft Cap:** `$75,000`
+- **Hard Cap:** `$150,000–$200,000`
+- **Presale Allocation:** `30,000,000 VLT`
+- **Presale Price:** `$0.0068` per VLT
+- **Planned Listing Price:** `$0.0076` per VLT
+- **Target Share of Presale Proceeds for Liquidity:** `65%`
+- **Planned LP Lock:** `12 months`
+
+Presale parameters remain subject to final platform configuration, security review, and publication of the official presale terms before contributions open.
 
 ---
 
@@ -85,7 +97,7 @@ This design separates fee accumulation from normal user transfers and supports c
 
 ## 🛡️ Security Validation
 
-VoltPay V2 completed extensive testing and security validation before Mainnet deployment:
+VoltPay V2 completed extensive internal testing and automated security validation before Mainnet deployment:
 
 - ✅ `93/93` local Hardhat tests passed
 - ✅ BSC Mainnet fork test passed
@@ -102,6 +114,8 @@ VoltPay V2 completed extensive testing and security validation before Mainnet de
 - ✅ Fee processing validation: PASS
 - ✅ Treasury pull-payment validation: PASS
 - ✅ Post-renounce fee processing validation: PASS
+
+These results are internal and automated validation references and are not a substitute for an independent third-party audit. An independent audit is planned before the public presale or official launch, subject to funding and provider availability.
 
 ---
 
@@ -123,43 +137,58 @@ VoltPay V2 includes:
 
 ---
 
-## 🌐 VoltPay Ecosystem
+## 🌐 VoltPay Ecosystem & Development Status
 
-VoltPay is designed as a utility-driven payments ecosystem.
+### Live / Deployed
 
-Current and planned components include:
+- VLT Mainnet smart contract deployed and verified on BNB Smart Chain
+- Official website and public project channels
+- Mainnet fork, testnet, and automated security validation completed
 
-- 💳 Non-custodial VoltPay Wallet
-- 📱 Telegram Wallet integration
-- 🤖 VoltAI assistant
-- 💵 Fiat on-ramp integrations
-- 📲 Mobile wallet applications
-- 🧩 Chrome wallet extension
-- 🏪 Merchant payment integrations
-- ⚡ Sponsored VLT transfers inside VoltPay Wallet
-- 🤝 Ecosystem partnerships
+### In Development
+
+- Non-custodial VoltPay Wallet
+- Telegram wallet integration
+- VoltAI assistant
+- Presale infrastructure and launch documentation
+
+### Planned / Partner-Dependent
+
+- Fiat on-ramp integrations
+- Mobile wallet applications
+- Chrome wallet extension
+- Merchant payment integrations
+- Sponsored VLT transfers inside VoltPay Wallet
+- Additional ecosystem and exchange partnerships
+
+Items described as planned or in development are not yet guaranteed production features. Availability may depend on technical testing, security reviews, regulatory requirements, funding, and third-party approvals.
 
 ---
 
 ## 📚 Official Documents
 
-- **Whitepaper:** `VoltPay_VLT_Whitepaper_Final_Mainnet_Edition_August_2026.pdf`
-- **Tokenomics:** `VoltPay_VLT_Tokenomics_Strict_Mainnet_Edition_August_2026.pdf`
+- **[Current Whitepaper (Version 2.0)](docs/current/VoltPay_VLT_Whitepaper_Version_2.0_Final_Mainnet_Edition_August_2026.pdf)**
+- **[Current Tokenomics (Version 2.0)](docs/current/VoltPay_VLT_Tokenomics_Version_2.0_Final_Mainnet_Edition_August_2026.pdf)**
+- **[Historical Whitepaper (superseded)](docs/archive/VoltPay_VLT_Whitepaper_Final_Mainnet_Edition_August_2026.pdf)**
+- **[Historical Tokenomics (superseded)](docs/archive/VoltPay_VLT_Tokenomics_Strict_Mainnet_Edition_August_2026.pdf)**
+
+Historical files are retained only for version transparency and must not be used as the current Whitepaper or allocation model.
 
 ---
 
-## 🔎 Transparency
+## 🔎 Transparency Roadmap
 
 VoltPay intends to publish verifiable on-chain proof for:
 
 - 🔐 Strategic Reserve lock
+- 👤 Locked portion of the Founder Allocation
 - 👥 Team vesting
-- 💧 Liquidity lock
+- 💧 Liquidity and LP lock
 - 🥞 Mainnet liquidity pool
-- 🚀 Presale allocation
-- 🏦 Relevant treasury and ecosystem wallets
+- 🚀 Presale allocation and distribution
+- 🏦 Relevant treasury, marketing, development, and ecosystem wallets
 
-These references will be added to this repository as they are completed.
+These references will be added to this repository as each action is completed. Until a transaction or contract address is published, the corresponding item should be treated as pending.
 
 ---
 
@@ -170,7 +199,9 @@ These references will be added to this repository as they are completed.
 - 💻 **GitHub:** https://github.com/volt-pay
 - 𝕏 **X / Twitter:** https://x.com/VoltPayInfo
 - ✈️ **Telegram:** https://t.me/VoltPayorg
-
+- ▶️ **YouTube:** https://www.youtube.com/channel/UCUagEhm_XXi0AoGi0AOYseQ
+- 🎵 **TikTok:** https://www.tiktok.com/@voltpay.org
+- 📸 **Instagram:** https://www.instagram.com/voltpay.info/
 
 ---
 
@@ -178,13 +209,13 @@ These references will be added to this repository as they are completed.
 
 Cryptocurrency markets involve substantial risk.
 
-VoltPay does not guarantee token price appreciation, investment returns, market liquidity, or future exchange listings.
+VoltPay does not guarantee token price appreciation, investment returns, market liquidity, presale completion, product delivery dates, partnership approvals, or future exchange listings.
 
-Users should independently review the smart contract, documentation, and on-chain data before interacting with VLT.
+Users should independently review the smart contract, current documentation, presale terms, and on-chain data before interacting with VLT. Nothing in this repository constitutes financial, legal, tax, or investment advice.
 
 ---
 
 <p align="center">
-  <strong>© 2026 VOLT-LABS LLC. All Rights Reserved.</strong><br>
+  <strong>© 2026 VOLT LABS LLC. All Rights Reserved.</strong><br>
   Powered by BNB Smart Chain | voltpay.org
 </p>
