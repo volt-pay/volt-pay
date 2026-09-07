@@ -39,41 +39,48 @@ Official Mainnet source:
 
 `9d708e7e874bdf72533d1f59d976049dfeeff9f3555aeccfd4c2bfdc94cbcdae`
 
-The Solidity source is frozen and corresponds to the contract deployed and verified on BNB Smart Chain Mainnet. Token allocation updates described below do not change the deployed smart contract or the fixed total supply.
+The Solidity source is frozen and corresponds to the contract deployed and verified on BNB Smart Chain Mainnet. Token allocation and presale updates described below do not change the deployed smart contract or the fixed total supply.
 
 ---
 
-## 📊 Tokenomics — Version 2.0
+## 📊 Tokenomics — Version 3.0
 
 VoltPay has a fixed, non-inflationary total supply of:
 
 **200,000,000 VLT**
 
-| Allocation | VLT | Share | Lock / Vesting Status |
-| --- | ---: | ---: | --- |
-| Strategic Reserve | 100,000,000 | 50% | 12-month lock planned; on-chain proof pending |
-| Founder Allocation | 20,000,000 | 10% | 10,000,000 planned for a 12-month lock; 10,000,000 unlocked |
-| Presale | 30,000,000 | 15% | Reserved for the planned public presale |
-| Liquidity | 20,000,000 | 10% | Reserved for initial and future liquidity |
-| Team | 10,000,000 | 5% | 3-month cliff followed by 12-month linear vesting; deployment pending |
-| Marketing & Community | 8,000,000 | 4% | Growth, community, campaigns, and ecosystem adoption |
-| Exchange Listings & Market Expansion | 7,000,000 | 3.5% | Exchange integrations, listings, and market expansion |
-| Development & Operations | 5,000,000 | 2.5% | Product development, infrastructure, security, and operations |
-| **Total** | **200,000,000** | **100%** | **Fixed supply** |
+| Allocation | VLT | Share |
+| --- | ---: | ---: |
+| Strategic Reserve | 100,000,000 | 50% |
+| Founder Allocation | 20,000,000 | 10% |
+| Presale | 30,000,000 | 15% |
+| Liquidity Reserve | 20,000,000 | 10% |
+| Team | 10,000,000 | 5% |
+| Marketing & Community | 8,000,000 | 4% |
+| Exchange Listings & Market Expansion | 7,000,000 | 3.5% |
+| Development & Operations | 5,000,000 | 2.5% |
+| **Total** | **200,000,000** | **100%** |
 
-Lock and vesting descriptions are commitments planned for implementation. They must not be interpreted as completed until the corresponding on-chain transactions and verifiable addresses are published.
+Strategic, founder, team and other designated allocations may be subject to on-chain locking or vesting schedules.
 
-### Planned Presale Parameters
+Detailed on-chain lock and vesting records are maintained separately through VoltPay's transparency resources.
 
-- **Soft Cap:** `$75,000`
-- **Hard Cap:** `$150,000–$200,000`
-- **Presale Allocation:** `30,000,000 VLT`
+### Presale Parameters
+
+- **Soft Cap:** `$50,000`
+- **Hard Cap:** `$200,000`
+- **Maximum Presale Allocation:** `30,000,000 VLT`
 - **Presale Price:** `$0.0068` per VLT
 - **Planned Listing Price:** `$0.0076` per VLT
-- **Target Share of Presale Proceeds for Liquidity:** `65%`
-- **Planned LP Lock:** `12 months`
+- **Minimum Contribution:** `$25 equivalent`
+- **Maximum Contribution:** `$5,000 equivalent per wallet`
+- **Presale Duration:** `14 days`
+- **Liquidity Allocation:** `75%`
+- **LP Lock:** `365 days`
+- **Buyer Vesting:** `60% at TGE, 20% after 15 days, 20% after 30 days`
+- **Unsold Tokens:** Returned to the project, segregated, and reserved for transparent future ecosystem use; they will not be automatically burned.
 
-Presale parameters remain subject to final platform configuration, security review, and publication of the official presale terms before contributions open.
+Final presale parameters remain subject to the configuration accepted and published on the official launchpad before contributions open.
 
 ---
 
@@ -115,7 +122,9 @@ VoltPay V2 completed extensive internal testing and automated security validatio
 - ✅ Treasury pull-payment validation: PASS
 - ✅ Post-renounce fee processing validation: PASS
 
-These results are internal and automated validation references and are not a substitute for an independent third-party audit. An independent audit is planned before the public presale or official launch, subject to funding and provider availability.
+These results are internal and automated validation references and are not a substitute for an independent third-party audit.
+
+An independent third-party smart contract audit is currently being arranged as part of VoltPay's pre-launch security process. The final audit report will be published through the project's official transparency resources once completed.
 
 ---
 
@@ -167,28 +176,28 @@ Items described as planned or in development are not yet guaranteed production f
 
 ## 📚 Official Documents
 
-- **[Current Whitepaper (Version 2.0)](docs/current/VoltPay_VLT_Whitepaper_Version_2.0_Final_Mainnet_Edition_August_2026.pdf)**
-- **[Current Tokenomics (Version 2.0)](docs/current/VoltPay_VLT_Tokenomics_Version_2.0_Final_Mainnet_Edition_August_2026.pdf)**
+- **[Current Whitepaper — Version 3.0](docs/current/VoltPay_VLT_Whitepaper_Version_3.0_Presale_Edition_September_2026.pdf)**
+- **[Current Tokenomics — Version 3.0](docs/current/VoltPay_VLT_Tokenomics_Version_3.0_Presale_Edition_September_2026.pdf)**
 - **[Historical Whitepaper (superseded)](docs/archive/VoltPay_VLT_Whitepaper_Final_Mainnet_Edition_August_2026.pdf)**
 - **[Historical Tokenomics (superseded)](docs/archive/VoltPay_VLT_Tokenomics_Strict_Mainnet_Edition_August_2026.pdf)**
+
+Version 3.0 supersedes previous VoltPay allocation and presale-planning documents.
 
 Historical files are retained only for version transparency and must not be used as the current Whitepaper or allocation model.
 
 ---
 
-## 🔎 Transparency Roadmap
+## 🔎 Transparency
 
-VoltPay intends to publish verifiable on-chain proof for:
+VoltPay publishes verifiable on-chain references for token locks, vesting schedules, liquidity, presale-related allocations, and other relevant project reserves through its transparency resources.
 
-- 🔐 Strategic Reserve lock
-- 👤 Locked portion of the Founder Allocation
-- 👥 Team vesting
-- 💧 Liquidity and LP lock
-- 🥞 Mainnet liquidity pool
-- 🚀 Presale allocation and distribution
-- 🏦 Relevant treasury, marketing, development, and ecosystem wallets
+Detailed lock and vesting records are maintained separately from the main project documentation to keep verification links current and easy to review.
 
-These references will be added to this repository as each action is completed. Until a transaction or contract address is published, the corresponding item should be treated as pending.
+Official transparency page:
+
+**https://voltpay.org/transparency**
+
+Additional on-chain references, including liquidity and presale records, will be added as they become available.
 
 ---
 
