@@ -11,15 +11,14 @@
 <p align="center">
   <a href="https://voltpay.org">Website</a> •
   <a href="https://bscscan.com/address/0xE90714e6e4becEc65F33D3099F95B42B6e3168aE#code">BscScan</a> •
-  <a href="https://voltpay.org/transparency">Transparency</a> •
-  <a href="./docs/current/">Documentation</a>
+    <a href="https://voltpay.org/transparency">Transparency</a>
 </p>
 
 ---
 
 VoltPay is a Web3 payments ecosystem being developed to make digital-asset payments simpler by combining blockchain infrastructure, a non-custodial wallet, and AI-assisted user tools.
 
-This repository contains the **official verified VoltPay V2 Mainnet smart contract**, current official project documentation, and security references for the VoltPay ecosystem.
+This repository contains the **official verified VoltPay V2 Mainnet smart contract**, updated VLT token allocation information, historical documentation, and security references.
 
 ---
 
@@ -36,8 +35,8 @@ This repository contains the **official verified VoltPay V2 Mainnet smart contra
 | **Optimizer** | Enabled — `200 runs` |
 | **EVM Version** | `paris` |
 | **BscScan Verification** | **Exact Match** |
-| **Trading Status** | Disabled until official launch |
-| **Liquidity Status** | Not yet added |
+| **Trading Status** | Enabled on-chain — DEX launch pending liquidity |
+| **Liquidity Status** | Initial PancakeSwap V2 liquidity not yet added |
 
 ### 🔎 BscScan
 
@@ -61,54 +60,92 @@ Documentation, token allocation, presale parameters, locks, vesting schedules, a
 
 ---
 
-## 📊 Tokenomics — Version 3.0 Rev2
+## 📊 Tokenomics — Updated November 9, 2026
 
-VoltPay has a fixed, non-inflationary total supply of:
+VoltPay (VLT) has a fixed, non-inflationary total supply of **200,000,000 VLT** on BNB Smart Chain.
 
-# **200,000,000 VLT**
+Following the conclusion of the GemPad presale, the token allocation was updated to reflect the return of unused presale tokens, a new long-term Ecosystem Reserve Lock, and dedicated wallets for unlocked allocations.
 
-| Allocation | VLT | Share |
-| --- | ---: | ---: |
-| Strategic Reserve | 100,000,000 | 50% |
-| Founder Allocation | 20,000,000 | 10% |
-| Presale | 30,000,000 | 15% |
-| Liquidity Reserve | 20,000,000 | 10% |
-| Team | 10,000,000 | 5% |
-| Marketing & Community | 7,000,000 | 3.5% |
-| Exchange Listings & Market Expansion | 6,000,000 | 3% |
-| Development & Operations | 5,000,000 | 2.5% |
-| Strategic Investor | 2,000,000 | 1% |
-| **Total** | **200,000,000** | **100%** |
+**Total Supply:** 200,000,000 VLT (100%)
 
-The **Strategic Investor allocation of 2,000,000 VLT (1%)** is included in the current Rev2 allocation model.
+**Locked & Vesting:** 147,000,000 VLT (73.5%)
 
-The total supply remains unchanged at **200,000,000 VLT**.
+**Unlocked Allocations:** 53,000,000 VLT (26.5%)
 
-Strategic, founder, team, investor, and other designated allocations may be subject to on-chain locking or vesting schedules.
+### Current Token Allocation
 
-Detailed on-chain lock and vesting information is maintained through VoltPay's transparency resources.
+| Allocation | VLT Amount | Share | Status |
+| --- | ---: | ---: | --- |
+| Strategic Reserve | 100,000,000 | 50% | Locked |
+| Founder — Locked | 10,000,000 | 5% | Locked |
+| Team Allocation | 10,000,000 | 5% | Vesting |
+| Strategic Investor Allocation | 2,000,000 | 1% | Vesting |
+| Ecosystem Reserve | 25,000,000 | 12.5% | Locked |
+| Liquidity Reserve & Launch Preparation | 20,000,000 | 10% | Unlocked |
+| Founder — Unlocked | 10,000,000 | 5% | Unlocked |
+| Marketing & Community | 7,000,000 | 3.5% | Unlocked |
+| Exchange Listings | 6,000,000 | 3% | Unlocked |
+| Development & Operations | 5,000,000 | 2.5% | Unlocked |
+| Future Funding | 5,000,000 | 2.5% | Unlocked |
+| **Total** | **200,000,000** | **100%** | |
+
+### Lock & Reserve Overview
+
+- **147,000,000 VLT** is allocated to publicly verifiable token locks and vesting arrangements.
+- The **25,000,000 VLT Ecosystem Reserve Lock** was created on November 9, 2026, with an unlock date of November 9, 2027, at 12:00 UTC.
+- The **20,000,000 VLT liquidity allocation** comprises 18,000,000 VLT in a dedicated Liquidity Reserve wallet and 2,000,000 VLT in the Mainnet Deployer wallet for launch preparation.
+- The **10,000,000 VLT unlocked Founder allocation** is disclosed separately from the 10,000,000 VLT locked Founder allocation.
+- All unlocked reserve allocations are held in separately disclosed wallets and are not subject to token time locks.
+
+Unlocked allocation amounts should not automatically be interpreted as circulating supply or deployed exchange liquidity.
+
+The fixed total supply remains unchanged. No additional VLT tokens were minted as part of this restructuring.
+
+For public wallet addresses, token locks, vesting records, and verification links, visit the [official VLT Transparency page](https://voltpay.org/transparency).
 
 ---
 
-## 🚀 Presale Parameters
+## 🚀 Presale Status — Completed
 
-| Parameter | Planned Configuration |
-| --- | ---: |
-| **Soft Cap** | `$50,000` |
-| **Hard Cap** | `$200,000` |
-| **Maximum Presale Allocation** | `30,000,000 VLT` |
-| **Presale Price** | `$0.0068 / VLT` |
-| **Planned Listing Price** | `$0.0076 / VLT` |
-| **Minimum Contribution** | `$25 equivalent` |
-| **Maximum Contribution** | `$5,000 equivalent per wallet` |
-| **Presale Duration** | `14 days` |
-| **Liquidity Allocation** | `75%` |
-| **LP Lock** | `365 days` |
-| **Buyer Vesting** | `60% TGE / 20% after 15 days / 20% after 30 days` |
+The VLT presale on GemPad has officially ended.
 
-**Unsold Tokens:** Returned to the project, segregated, and reserved for transparent future ecosystem use. They will not be automatically burned.
+The presale did not reach its required soft cap and was therefore not completed as a successful fundraising event.
 
-Final presale parameters remain subject to the configuration accepted and published on the official launchpad before contributions open.
+| Parameter | Final Status |
+| --- | --- |
+| **Platform** | GemPad |
+| **Network** | BNB Smart Chain |
+| **Status** | Ended — Soft Cap Not Reached |
+| **Soft Cap** | 26 BNB |
+| **Presale Price** | $0.0068 / VLT |
+| **Original Target Listing Price** | $0.0076 / VLT |
+| **Presale Outcome** | Unsuccessful |
+
+### Token Allocation Update
+
+Following the unsuccessful presale, the allocated VLT tokens were returned to the project.
+
+On November 9, 2026, the token allocation was reorganized, including:
+
+- Creation of a new 25,000,000 VLT Ecosystem Reserve Lock.
+- Distribution of unlocked tokens into dedicated project and founder wallets.
+- Publication of the updated allocation structure.
+
+The total token supply remains unchanged at **200,000,000 VLT**.
+
+Presale participants may follow the applicable refund process through GemPad. Individual refund transactions should be verified on-chain.
+
+### Historical Presale Record
+
+[**View the completed GemPad presale →**](https://gempad.app/presale/0x032864D4e771C147Da9619D4359ab5f1bAf3a5cA?network=BNB_Smart_Chain)
+
+### Next Stage — PancakeSwap V2
+
+VoltPay is preparing for the VLT decentralized exchange launch on PancakeSwap V2.
+
+Initial liquidity deployment and LP token locking will be announced after the relevant on-chain transactions have been completed and verified.
+
+**Current Status:** Preparing for DEX Launch.
 
 ---
 
@@ -152,7 +189,28 @@ VoltPay V2 completed extensive internal testing and automated security validatio
 
 These results are internal and automated validation references and are not a substitute for an independent third-party audit.
 
-An independent third-party smart contract audit is being arranged as part of VoltPay's pre-launch security process. The final report will be published through the project's official transparency resources once completed.
+### ✅ Independent Smart Contract Audit — Cyberscope
+
+VoltPay V2 has completed an independent smart contract security audit conducted by **Cyberscope**.
+
+**Published Audit Findings:**
+- Critical: 0
+- Medium: 1
+- Minor / Informational: 7
+
+The audit findings and their current resolution status are publicly available in the official Cyberscope report.
+
+[**View Official Cyberscope Audit →**](https://app.cyberscope.io/audits/10-vlt)
+
+### ✅ Project KYC — Cyberscope
+
+VoltPay has also completed the Cyberscope KYC verification process.
+
+**KYC Status:** Verified
+
+[**Verify KYC on Cyberscope →**](https://app.cyberscope.io/audits/10-vlt)
+
+The smart contract audit and KYC verification provide independent documentation of the reviewed contract and identity verification. They do not constitute a guarantee of complete security, future performance, or investment returns.
 
 ---
 
@@ -200,7 +258,7 @@ The ecosystem includes:
 - VoltPay Wallet development and refinement
 - Telegram wallet integration
 - VoltAI development and integration
-- Presale infrastructure
+- PancakeSwap V2 DEX launch preparation
 - Launch documentation
 - Security and production-readiness work
 
@@ -220,24 +278,42 @@ Future availability may depend on technical testing, security reviews, regulator
 
 ## 📚 Official Documents
 
-### ✅ Current Official Documentation
+### ✅ Current Token Allocation — November 9, 2026
 
-- [**VoltPay Whitepaper — Version 3.0 Rev2 — Presale Edition — September 2026**](./docs/current/VoltPay_VLT_Whitepaper_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
-- [**VoltPay Tokenomics — Version 3.0 Rev2 — Presale Edition — September 2026**](./docs/current/VoltPay_VLT_Tokenomics_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
-- [**Current Documentation Directory →**](./docs/current/)
+The current VLT token allocation is documented in the
+**Tokenomics — Updated November 9, 2026** section of this README.
 
-**Version 3.0 Rev2 is the current official VoltPay documentation.**
+**Total Supply:** 200,000,000 VLT
 
-It supersedes earlier Version 3.0 revisions and previous allocation and presale-planning documents.
+**Locked & Vesting:** 147,000,000 VLT (73.5%)
 
-### 📦 Historical Documentation
+**Unlocked Allocations:** 53,000,000 VLT (26.5%)
 
-[**View archived VoltPay documents →**](./docs/archive/)
+The updated allocation supersedes the distribution and
+presale planning figures in the September 2026 documents.
 
-Historical documents are retained for transparency and version history and must not be treated as current project documentation.
+For current on-chain verification, visit:
+
+[**Official VLT Transparency Page →**](https://voltpay.org/transparency)
+
+### 📦 Previous Documentation — September 2026
+
+The following documents are retained for historical
+reference and are no longer current for token allocation
+or presale status:
+
+- [**VoltPay Whitepaper — V3.0 Rev2 — September 2026 (Historical)**](./docs/current/VoltPay_VLT_Whitepaper_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
+- [**VoltPay Tokenomics — V3.0 Rev2 — September 2026 (Historical)**](./docs/current/VoltPay_VLT_Tokenomics_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
+
+[**View Historical Documentation Archive →**](./docs/archive/)
+
+Updated PDF documentation reflecting the November 2026
+token allocation will be published separately.
+
+Historical documents remain available for transparency
+and version tracking.
 
 ---
-
 ## 🔎 Transparency
 
 VoltPay publishes verifiable on-chain references for token locks, vesting schedules, liquidity, presale-related allocations, and other relevant project reserves.
@@ -273,14 +349,13 @@ Cryptocurrency markets involve substantial risk.
 
 VoltPay does not guarantee token price appreciation, investment returns, market liquidity, presale completion, product delivery dates, partnership approvals, or future exchange listings.
 
-Users should independently review the smart contract, current documentation, presale terms, and available on-chain data before interacting with VLT.
-
+Users should independently review the smart contract, updated token allocation, official transparency records, and available on-chain data before interacting with VLT.
 Nothing in this repository constitutes financial, legal, tax, or investment advice.
 
 ---
 
 <p align="center">
-  <strong>© 2026 VOLT LABS LLC. All Rights Reserved.</strong>
+  <strong>VoltPay (VLT) — Official Token Repository</strong>
 </p>
 
 <p align="center">
