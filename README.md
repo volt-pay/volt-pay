@@ -278,40 +278,44 @@ Future availability may depend on technical testing, security reviews, regulator
 
 ## 📚 Official Documents
 
-### ✅ Current Token Allocation — November 9, 2026
+### ✅ Current Official Documentation — November 2026
 
-The current VLT token allocation is documented in the
-**Tokenomics — Updated November 9, 2026** section of this README.
+The official VoltPay (VLT) documentation has been updated to Version 3.1, reflecting the November 9, 2026 token allocation restructuring.
 
-**Total Supply:** 200,000,000 VLT
+**Official Whitepaper — Version 3.1**
 
-**Locked & Vesting:** 147,000,000 VLT (73.5%)
+[**View / Download Whitepaper V3.1 →**](./docs/current/VoltPay_VLT_Whitepaper_Version_3.1_November_2026_Revised.pdf)
 
-**Unlocked Allocations:** 53,000,000 VLT (26.5%)
+**Official Tokenomics — Version 3.1**
 
-The updated allocation supersedes the distribution and
-presale planning figures in the September 2026 documents.
+[**View / Download Tokenomics V3.1 →**](./docs/current/VoltPay_VLT_Tokenomics_Version_3.1_November_2026.pdf)
 
-For current on-chain verification, visit:
+### Updated Token Allocation
 
-[**Official VLT Transparency Page →**](https://voltpay.org/transparency)
+| Category | Amount | Share |
+| --- | ---: | ---: |
+| Total Supply | 200,000,000 VLT | 100% |
+| Locked & Vesting | 147,000,000 VLT | 73.5% |
+| Unlocked Allocations | 53,000,000 VLT | 26.5% |
 
-### 📦 Previous Documentation — September 2026
+The updated documents include dedicated reserve wallet addresses, token lock and vesting records, Cyberscope audit and KYC references, and the current PancakeSwap V2 launch preparation status.
 
-The following documents are retained for historical
-reference and are no longer current for token allocation
-or presale status:
+### Security & Verification
 
-- [**VoltPay Whitepaper — V3.0 Rev2 — September 2026 (Historical)**](./docs/current/VoltPay_VLT_Whitepaper_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
-- [**VoltPay Tokenomics — V3.0 Rev2 — September 2026 (Historical)**](./docs/current/VoltPay_VLT_Tokenomics_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
+- [**Cyberscope Smart Contract Audit →**](https://app.cyberscope.io/audits/10-vlt)
+- [**Official VLT Transparency →**](https://voltpay.org/transparency)
+- [**PinkLock Verification →**](https://www.pinksale.finance/pinklock/bsc/0xE90714e6e4becEc65F33D3099F95B42B6e3168aE)
 
-[**View Historical Documentation Archive →**](./docs/archive/)
+### 📦 Historical Documentation
 
-Updated PDF documentation reflecting the November 2026
-token allocation will be published separately.
+The previous September 2026 V3.0 Rev2 documents have been moved to the historical archive.
 
-Historical documents remain available for transparency
-and version tracking.
+- [**Whitepaper V3.0 Rev2 — Historical →**](./docs/archive/VoltPay_VLT_Whitepaper_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
+- [**Tokenomics V3.0 Rev2 — Historical →**](./docs/archive/VoltPay_VLT_Tokenomics_Version_3.0_Presale_Edition_September_2026_Rev2.pdf)
+
+[**View Complete Documentation Archive →**](./docs/archive/)
+
+**Version 3.1 — November 2026 is the current official VLT documentation.**
 
 ---
 ## 🔎 Transparency
